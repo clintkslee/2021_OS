@@ -1,0 +1,11 @@
+/* copy and paste */
+
+cp sys_my_add.c /usr/src/linux/linux-5.11.22/kernel/
+cp sys_my_sub.c /usr/src/linux/linux-5.11.22/kernel/
+cp sys_my_mul.c /usr/src/linux/linux-5.11.22/kernel/
+cp sys_my_mod.c /usr/src/linux/linux-5.11.22/kernel/
+cp Makefile /usr/src/linux/linux-5.11.22/kernel/
+
+cp syscall_64.tbl /usr/src/linux/linux-5.11.22/arch/x86/entry/syscalls/
+	  
+cp syscalls.h /usr/src/linux/linux-5.11.22/include/linux/
